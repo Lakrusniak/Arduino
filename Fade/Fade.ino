@@ -1,7 +1,7 @@
-/*
+``````````````````````/*
   Fade
 
-  This example shows how to fade an LED on pin 9 using the analogWrite()
+  This example shows how to fade an LED on pin 11 using the analogWrite()
   function.
 
   The analogWrite() function uses PWM, so if you want to change the pin you're
