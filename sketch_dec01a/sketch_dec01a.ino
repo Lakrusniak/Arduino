@@ -3,7 +3,6 @@ Programer: Landon Krusniak
 Date:11/30/2022
 Resources:https://create.arduino.cc/projecthub/Arduino_Genuino/pavlov-s-cat-with-arduino-iot-bundle-d5b388?ref=platform&ref_id=424_trending___&offset=1
 */
-
 #define Note_B0 31
 #define NOTE_C1 33
 #define NOTE_CS1 35
@@ -96,11 +95,13 @@ Resources:https://create.arduino.cc/projecthub/Arduino_Genuino/pavlov-s-cat-with
 
 /* notes in the melody.*/
 
-int MelodyOne[] = {
+int melodyOne[] = {
 NOTE_C8, NOTE_G3, NOTE_A7, NOTE_G3, 0, NOTE_B3, NOTE_C4};
 
 /* note durations: 4 = quarter note, 8 = eighth note, etc.*/
 int noteDurationsOne[] = {4, 8, 8, 4, 4, 4, 4, 4};
+int melodyTwo[] = {};
+
 int MelodyTwo[] = {
 NOTE_CS8, NOTE_C8, NOTE_B7, NOTE_C5, 0, NOTE_G4, NOTE_C5, NOTE_F5, NOTE_E5, NOTE_C5, NOTE_C5
 };
@@ -109,3 +110,15 @@ NOTE_CS8, NOTE_C8, NOTE_B7, NOTE_C5, 0, NOTE_G4, NOTE_C5, NOTE_F5, NOTE_E5, NOTE
 int noteDurationsTwo[] = {
 2, 2, 4, 4, 8, 4, 4, 4, 4, 4 , 4
 };
+
+
+
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
