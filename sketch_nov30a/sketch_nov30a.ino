@@ -96,14 +96,21 @@ Resources:https://create.arduino.cc/projecthub/Arduino_Genuino/pavlov-s-cat-with
 /* notes in the melody.*/
 
 int melodyOne[] = {
-NOTE_C4, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4};
+NOTE_C8, NOTE_G3, NOTE_A7, NOTE_G3, 0, NOTE_B3, NOTE_C4};
 
 /* note durations: 4 = quarter note, 8 = eighth note, etc.*/
 int noteDurationsOne[] = {4, 8, 8, 4, 4, 4, 4, 4};
-int melodyTwo[] = {};
+int melodyTwo[] = {
+NOTE_CS8, NOTE_C8, NOTE_B7, NOTE_C5, 0, NOTE_G4, NOTE_C5, NOTE_F5, NOTE_E5, NOTE_C5, NOTE_C5
+};
+
+/* note durations: 4 = quarter note, 8 = eighth note, etc. */
+int noteDurationsTwo[] = {
+2, 2, 4, 4, 8, 4, 4, 4, 4, 4 , 4
+};
+
 void setup() {
   // put your setup code here, to run once:
-
 }
 
 void loop() {
