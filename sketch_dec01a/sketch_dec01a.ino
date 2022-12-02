@@ -2,20 +2,6 @@
 Programer: Landon Krusniak 
 Date:11/30/2022
 Resources:https://create.arduino.cc/projecthub/EvdS/led-dice-885cf1?ref=search&ref_id=led&offset=0
-
- Arduino Dice :)
-
- This example shows how to simulate throwing a dice with 6 LEDs.
-
- The circuit:
- * 6 LEDs attached to consecutive digital pins (with 220 Ohm resistors)
- * Button switch connected to digital pin (see circuit on https://www.arduino.cc/en/Tutorial/Button)
-
- Created 5 Jan 2017
- By Esther van der Stappen
- 
- This example code is in the public domain.
-
  */
 
 // set to 1 if we're debugging
