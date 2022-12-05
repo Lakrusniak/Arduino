@@ -18,7 +18,7 @@ int sixth = 7;
 // pin for the button switch
 int button = 12;
 // value to check state of button switch
-int pressed = 0;
+int pressed = 3;
 
 void setup() {
   // set all LED pins to OUTPUT
