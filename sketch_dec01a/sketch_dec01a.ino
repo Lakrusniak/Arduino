@@ -47,7 +47,7 @@ void buildUpTension() {
       digitalWrite(i-1, LOW);
     }
     digitalWrite(i, HIGH);
-    delay(100);
+    delay(80);
   }
   // right to left
   for (int i=sixth; i>=first; i--) {
@@ -55,7 +55,7 @@ void buildUpTension() {
       digitalWrite(i+1, LOW);
     }
     digitalWrite(i, HIGH);
-    delay(100);
+    delay(80);
   }
 }
 
