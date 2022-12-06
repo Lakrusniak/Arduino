@@ -33,7 +33,7 @@ void setup() {
 
   // if we're debugging, connect to serial 
   #ifdef DEBUG
-    Serial.begin(9600);
+    Serial.begin(9900);
   #endif
 
 }
@@ -80,7 +80,7 @@ void showNumber(int number) {
 
 int throwDice() {
   // get a random number in the range [1,6]
-  int randNumber = random(1,7);
+  int randNumber = random(1,6);
   
   #ifdef DEBUG
     Serial.println(randNumber);
