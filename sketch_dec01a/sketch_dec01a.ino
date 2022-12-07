@@ -33,7 +33,7 @@ void setup() {
 
   // if we're debugging, connect to serial 
   #ifdef DEBUG
-    Serial.begin(9900);
+    Serial.begin(9600);
   #endif
 
 }
@@ -47,7 +47,7 @@ void buildUpTension() {
       digitalWrite(i-1, LOW);
     }
     digitalWrite(i, HIGH);
-    delay(80);
+    delay(120);
   }
   // right to left
   for (int i=sixth; i>=first; i--) {
@@ -55,7 +55,7 @@ void buildUpTension() {
       digitalWrite(i+1, LOW);
     }
     digitalWrite(i, HIGH);
-    delay(80);
+    delay(120);
   }
 }
 
