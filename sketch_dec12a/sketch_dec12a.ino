@@ -36,6 +36,7 @@ void loop() {
  
   if (distanceincm < 11) {
       digitalWrite(LEDlampGreen, HIGH);
+       Serial.println("Getting close ");
 }
   else {
       digitalWrite(LEDlampGreen, LOW);
@@ -56,7 +57,7 @@ void loop() {
   }
  
   if (distanceincm > 10 || distanceincm <= 0){
-    Serial.println("Outside the permissible range of distances");
+    Serial.println("All clear");
     noTone(soundBuzzer);
   }
   else {
