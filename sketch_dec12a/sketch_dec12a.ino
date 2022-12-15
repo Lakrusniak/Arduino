@@ -34,7 +34,7 @@ void loop() {
   durationindigit = pulseIn(echoPin, HIGH);
   distanceincm = (durationindigit/5) / 29.1;
  
-  if (distanceincm < 11) {
+  if (distanceincm <= 10 && distanceincm >= 7) {
       digitalWrite(LEDlampGreen, HIGH);
        Serial.println("Getting close ");
 }
