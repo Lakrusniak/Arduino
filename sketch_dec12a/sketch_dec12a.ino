@@ -52,6 +52,7 @@ void loop() {
   if (distanceincm < 4) {
     digitalWrite(LEDlampRed, HIGH);
     tone(soundBuzzer, sound);
+    Serial.println("Stop now your going to crash.");
 }
   else {
     digitalWrite(LEDlampRed,LOW);
@@ -64,6 +65,7 @@ void loop() {
   else {
     Serial.print(distanceincm);
     Serial.println(" cm");
+    Serial.println(" ");
     
   }
   
