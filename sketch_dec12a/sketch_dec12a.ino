@@ -42,8 +42,9 @@ void loop() {
       digitalWrite(LEDlampGreen, LOW);
   }
   
-  if (distanceincm < 7) {
+  if (distanceincm <= 6 && distanceincm >= 4) {
     digitalWrite(LEDlampYellow, HIGH);
+     Serial.println("Getting a lot closer whatch out ");
 }
   else {
     digitalWrite(LEDlampYellow,LOW);
